@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+}
+
+.box1 {
+    border-radius: 50% 50% 0 50%;
+}
+
+.box2 {
+    border-radius: 50% 50% 50% 0;
+}
+
+.box3 {
+    border-radius: 50% 0 50% 50%;
+}
+
+.box4 {
+    border-radius: 0 50% 50% 50%;
+}
+
+.box5 {
+    background-color: coral;
+    border-top-left-radius: 50px 25px;
+    border-top-right-radius: 100px 50px;
+    border-bottom-right-radius: 150px 250px;
+    border-bottom-left-radius: 200px 500px;
+}
+
+p {
+    background: blue;
+    width: 500;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+}
